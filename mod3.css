@@ -1,3 +1,129 @@
+<<<<<<< HEAD
+body {
+  font-size: 16px;
+  color: white;
+  background-color: white;
+  font-family: 'Lobster', cursive;
+}
+h1{
+  color: black;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+/* HEADER */
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+  color: white;
+}
+
+.navbar-brand p {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-brand a:focus, .navbar-brand  {
+  text-decoration: none;
+  font-size: 16px;
+}
+#nav-list {
+  color: white;
+  text-align:;
+  display:flex;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+.nav li a {
+   color: white;
+   text-decoration: none;
+}
+#nav-list a:hover {
+  background-color: #8243d6;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -33px;
+}
+/* END HEADER */
+
+/* Section */
+#home {
+  margin-bottom: 30px;
+}
+
+.row {
+  
+  position: relative;
+  float:left;
+}
+
+.row > div > article {
+  background-color: grey;
+  text-align:justify;
+  margin-bottom: 20px;
+  padding: 12px;
+  color: black;
+}
+/* End Section */
+
+
+@media screen and (max-width: 768px)
+{
+  .line{
+  width: 30px;
+  height:3px;
+  background:white;
+  margin: 5px;  
+}
+.nav{
+    position: relative;
+  }
+  .hamburger{
+    position:;
+    cursor: pointer;
+    right: 5%;
+    top: 50%
+    transform:translate(-5%, -50%);
+  }
+  .nav-links{
+    position:fixed;
+    flex-direction: column;
+    display: none;
+  }
+ .nav-links li{
+  opacity: 0;
+ } 
+ .nav-links li a{
+  font-size: 25px
+ }
+ .nav-links li:nth-child(1) {
+  transition: all;
+ }
+ .nav-links li:nth-child(2) {
+  transition: all;
+ }
+ .nav-links li:nth-child(3) {
+  transition: all;
+ } 
+}
+
+
+
+
+
+
+=======
 #navbar{
    width: 100%;
    height: 50md;
@@ -24,3 +150,4 @@ h2{
 p{
 	margin: 0 15px 0 15px ;
 }
+>>>>>>> 7068981086b2ba81b1f9dbaacbe1626933f391b5
